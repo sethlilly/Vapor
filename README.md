@@ -18,9 +18,9 @@ Copyright (c) 2013 Seth Lilly - Released under The MIT License.
 
 ## Thanks
 
-Thanks to @JohnONolan for [suggesting this project](https://alpha.app.net/johnonolan/post/9574144).
+Thanks to [@JohnONolan](http://twitter.com/JohnONolan) for [suggesting this project](https://alpha.app.net/johnonolan/post/9574144).
 
-And of course, thanks to @JohnONolan, @ErisDS, and the Ghost team for creating this amazing platform.
+And of course, thanks to [@JohnONolan](http://twitter.com/JohnONolan), [@ErisDS](http://twitter.com/ErisDS), and the Ghost team for creating this amazing platform.
 
-The Ghost, Facbook, Twitter, and Google+ icons are from the Casper theme.
+The Ghost, Facbook, Twitter, and Google+ icons are from the Casper theme.  
 Copyright (c) 2013 Ghost Foundation - Released under The MIT License.
