@@ -1,5 +1,7 @@
 # Vapor
 
+![Vapor Screenshot](https://files.app.net/z9h7pNct.png)
+
 Minimal and responsive with a focus on typography, *Vapor* is a theme that embodies the core concept of [Ghost](http://ghost.org/)&mdash;it fades into the background, bringing the focus to your content.
 
 Supports blog and user images; cover images, while supported in the Ghost admin, are not displayed in the theme due to theme's minimal nature and focus on typography.
