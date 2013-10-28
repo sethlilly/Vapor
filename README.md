@@ -10,6 +10,8 @@ See *Vapor* in action at [Hipster Ghost](http://hipsterghost.com/).
 
 ## Releases
 
+See the [changelog](CHANGELOG.md) for release details.
+
 * 1.1 - 2013-10-28
 * 1.0 - 2013-10-18
 
