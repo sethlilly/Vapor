@@ -15,6 +15,10 @@ See the [changelog](CHANGELOG.md) for release details.
 * 1.1 - 2013-10-28
 * 1.0 - 2013-10-18
 
+## Contributing
+
+*Vapor* is open source and released under the MIT License, and contributions to the code base are welcome and encouraged. Find [more information about contributing here](CONTRIBUTING.md). 
+
 ## Copyright & License
 
 Copyright (c) 2013 Seth Lilly - Released under The MIT License.
