@@ -1,5 +1,9 @@
 # Changelog
 
+* 1.2.1 - 2013-12-14
+    * Added Font Awesome icons
+    * Changed pagination links to use Font Awesome Icons
+    * Added "Read Article" links at the bottom of article previews
 * 1.2 - 2013-11-10
     * Added LESS-generated CSS
     * Changed default link colors

@@ -6,6 +6,10 @@ Supports blog and user images; cover images, while supported in the Ghost admin,
 
 Fonts embedded via Google Fonts, including Roboto Slab, Merriweather, and Open Sans Condensed.
 
+The Ghost, Facbook, Twitter, and Google+ icons are from the Casper theme and are copyright (c) 2013 Ghost Foundation and released under The MIT License.
+
+Other icons provided by [Font Awesome](https://github.com/FortAwesome/Font-Awesome) and released under SIL OFL 1.1.
+
 See *Vapor* in action at [Hipster Ghost](http://hipsterghost.com/).
 
 ## Modifications
@@ -16,6 +20,7 @@ Since 1.2, a [LESS](http://lesscss.org) file is included which contains variable
 
 See the [changelog](CHANGELOG.md) for release details.
 
+* 1.2.1 - 2013-12-14
 * 1.2 - 2013-11-10
 * 1.1.2 - 2013-11-10
 * 1.1.1 - 2013-10-30
@@ -37,6 +42,3 @@ Copyright (c) 2013 Seth Lilly - Released under The MIT License.
 Thanks to [@JohnONolan](http://twitter.com/JohnONolan) for [suggesting this project](https://alpha.app.net/johnonolan/post/9574144).
 
 And of course, thanks to [@JohnONolan](http://twitter.com/JohnONolan), [@ErisDS](http://twitter.com/ErisDS), and the Ghost team for creating this amazing platform.
-
-The Ghost, Facbook, Twitter, and Google+ icons are from the Casper theme.  
-Copyright (c) 2013 Ghost Foundation - Released under The MIT License.
