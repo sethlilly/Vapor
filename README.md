@@ -20,12 +20,14 @@ Since 1.2, a [LESS](http://lesscss.org) file is included which contains variable
 
 See the [changelog](CHANGELOG.md) for release details.
 
-* 1.2.1 - 2013-12-14
-* 1.2 - 2013-11-10
-* 1.1.2 - 2013-11-10
-* 1.1.1 - 2013-10-30
-* 1.1 - 2013-10-28
-* 1.0 - 2013-10-18
+| Version | Release Date |
+| :-----: | :----------: |
+| 1.2.1 | 2013-12-14 |
+| 1.2 | 2013-11-10 |
+| 1.1.2 | 2013-11-10 |
+| 1.1.1 | 2013-10-30 |
+| 1.1 | 2013-10-28 |
+| 1.0 | 2013-10-18 |
 
 ## Contributing and Forking
 
