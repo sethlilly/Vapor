@@ -3,6 +3,7 @@
 @import url(//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
 /* === Core Styles === */
 body {
+  background-color: #ffffff;
   color: #7f8c8d;
   font-size: 15px;
   font-weight: 100;
@@ -109,9 +110,13 @@ article.preview p.readmore {
   margin: 50px auto 0;
   text-align: center;
 }
-#blog-logo img {
+#blog-logo div.bloglogo {
+  width: 100px;
+  height: 100px;
   border-radius: 50%;
-  max-width: 100px;
+  background-size: cover !important;
+  background-position: center center !important;
+  background-color: #ffffff;
 }
 h1.blog-title,
 h2.blog-description {
@@ -208,6 +213,15 @@ blockquote p {
 .tags {
   font-size: 16px;
   margin-bottom: 0.6em;
+}
+div.authorimage {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-size: cover !important;
+  background-position: center center !important;
+  margin-right: 10px;
+  float: left;
 }
 h1.post-title a,
 h1.blog-title a {

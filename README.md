@@ -14,6 +14,8 @@ See *Vapor* in action at [Hipster Ghost](http://hipsterghost.com/).
 
 ## Modifications
 
+Since 1.3, blog logos and author images must be at least 100px in height and width, but do not need to be 1:1.
+
 Since 1.2, a [LESS](http://lesscss.org) file is included which contains variables allowing you to quickly change the theme's stylesheet. However, I've chosen to exclude `less.js` from the theme and I recommend using a desktop compiler like [LESS.app for Mac](http://incident57.com/less/), [SimpLESS](http://wearekiss.com/simpless), or [Crunch!](http://crunchapp.net/) to process your LESS file.
 
 ## Releases
@@ -22,6 +24,7 @@ See the [changelog](CHANGELOG.md) for release details.
 
 | Version | Release Date |
 | :-----: | :----------: |
+| 1.3 | 2014-01-12 |
 | 1.2.1 | 2013-12-14 |
 | 1.2 | 2013-11-10 |
 | 1.1.2 | 2013-11-10 |
