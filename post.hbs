@@ -1,7 +1,7 @@
 {{!< default}}
 
 <header id="site-head">
-    {{#if @blog.logo}}<a id="blog-logo" href="{{@blog.url}}"><img src="{{@blog.logo}}" alt="Blog Logo" /></a>{{/if}}
+    {{#if @blog.logo}}<a id="blog-logo" href="{{@blog.url}}"><div class="bloglogo" style="background: url({{@blog.logo}})"></div></a>{{/if}}
     <h1 class="blog-title"><a href="{{@blog.url}}">{{@blog.title}}</a></h1>
     <h2 class="blog-description">{{@blog.description}}</h2>
 </header>
@@ -42,7 +42,7 @@
 
             {{#if author}}
             <section class="author">
-                <img src="{{author.image}}" class="userimage" alt="{{author.name}}" />
+                <div class="authorimage" style="background: url({{author.image}})"></div>
                 <p class="attr">Author</p>
                 <h4><a href="{{author.website}}">{{author.name}}</a></h4>
                 <p class="bio">{{author.bio}}</p>

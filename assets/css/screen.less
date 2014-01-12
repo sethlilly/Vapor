@@ -1,5 +1,6 @@
 // Variables
 
+@bodyBackgroundColor: #ffffff;
 @baseFontFamily: "Merriweather", "Open Sans", "Helvetica Neue", Helvetica, Arial, "Nimbus L", sans-serif;
 @baseFontColor: #7f8c8d;
 @headerFontFamily: "Roboto Slab", @baseFontFamily;
@@ -24,6 +25,7 @@
 @import url(//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
 
 body {
+    background-color: @bodyBackgroundColor;
     color: @baseFontColor;
     font-size: 15px;
     font-weight: 100;
@@ -127,12 +129,15 @@ article.preview {
     max-width: 100px;
     margin: 50px auto 0;
     text-align: center;
-}
-
-    #blog-logo img {
-        border-radius: 50%;
-        max-width: 100px;
+    div.bloglogo {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      background-size: cover !important;
+      background-position: center center !important;
+      background-color: @bodyBackgroundColor;
     }
+}
 
 h1.blog-title, h2.blog-description {
     text-align: center
@@ -239,6 +244,16 @@ blockquote {
 .tags {
     font-size: 16px;
     margin-bottom: 0.6em;
+}
+
+div.authorimage {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-size: cover !important;
+  background-position: center center !important;
+  margin-right: 10px;
+  float: left;
 }
 
 h1.post-title a, h1.blog-title a {
