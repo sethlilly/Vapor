@@ -6,7 +6,7 @@ Supports blog and user images; cover images, while supported in the Ghost admin,
 
 Fonts embedded via Google Fonts, including Roboto Slab, Merriweather, and Open Sans Condensed.
 
-The Ghost, Facebook, Twitter, and Google+ icons are trademarks of their respective owners and are from the Casper theme, copyright (c) 2013 Ghost Foundation and released under The MIT License.
+The Ghost, Facebook, Twitter, and Google+ icons are trademarks of their respective owners and are from the Casper theme, copyright (c) 2014 Ghost Foundation and released under The MIT License.
 
 Other icons provided by [Font Awesome](https://github.com/FortAwesome/Font-Awesome) and released under SIL OFL 1.1.
 
@@ -38,7 +38,7 @@ See the [changelog](CHANGELOG.md) for release details.
 
 ## Copyright & License
 
-Copyright (c) 2013 Seth Lilly - Released under The MIT License.
+Copyright (c) 2014 Seth Lilly - Released under The MIT License.
 
 ## Thanks
 
