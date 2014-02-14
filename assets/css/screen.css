@@ -452,7 +452,6 @@ a.archive-link {
 }
 .icon-twitter:before {
   content: "\e002";
-  font-size: 1.1em;
 }
 .icon-google-plus:before {
   content: "\e003";
