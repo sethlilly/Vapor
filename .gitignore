@@ -1,2 +1,10 @@
 .DS_Store
 *.sublime*
+.idea/.name
+.idea/Vapor.iml
+.idea/encodings.xml
+.idea/modules.xml
+.idea/misc.xml
+.idea/scopes/scope_settings.xml
+.idea/workspace.xml
+.idea/vcs.xml
