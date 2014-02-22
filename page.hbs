@@ -1,0 +1,28 @@
+{{!< default}}
+
+<header id="site-head">
+    {{#if @blog.logo}}<a id="blog-logo" href="{{@blog.url}}"><div class="bloglogo" style="background: url({{@blog.logo}})"></div></a>{{/if}}
+    <h1 class="blog-title"><a href="{{@blog.url}}">{{@blog.title}}</a></h1>
+    <h2 class="blog-description">{{@blog.description}} &bull; <a href="/about/">About</a> &bull; <a href="/more/">More</a> &bull; <a href="{{@blog.url}}">Blog</a> &bull; <a href="http://alexandragreenspan.com">Home</a></h2>
+</header>
+
+<main class="content" role="main">
+
+    <article class="{{post_class}}">
+
+        {{#post}}
+
+        <header>
+        {{#if tags}}<div class="post-meta tags">Posted in {{tags}}</div>{{/if}}
+        <h1 class="post-title">{{{title}}}</h1>
+        </header>
+
+        <section class="post-content">
+            {{content}}
+        </section>
+
+        {{/post}}
+
+    </article>
+
+</main>
