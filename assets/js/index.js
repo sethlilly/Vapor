@@ -6,13 +6,22 @@
 (function ($) {
     "use strict";
 
-    $(document).ready(function(){
+  $(document).ready(function(){
+    // PrismJS handler
+    // =================
+    Prism.languages.html = Prism.languages.markup;
 
-        // On the home page, move the blog icon inside the header 
-        // for better relative/absolute positioning.
+    var _prismHandler = function() {
+      $('code').not('[class*="language-"]').addClass(function() {
+        var _lang = $(this).attr('class')  || 'markup';
 
-        //$("#blog-logo").prependTo("#site-head-content");
+        _lang = _lang.replace(/(language|lang)+\-/gi, '');
+        return 'language-' + (Prism.languages.hasOwnProperty(_lang) ? _lang : 'markup');
+      });
 
-    });
+      Prism.highlightAll();
+    };
 
+    _prismHandler();
+  });
 }(jQuery));
