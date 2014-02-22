@@ -11,8 +11,9 @@
     <meta name="MobileOptimized" content="320" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" type="text/css" href="/assets/css/normalize.css" />
-    <link rel="stylesheet" type="text/css" href="/assets/css/screen.css" />
+    <link rel="stylesheet" type="text/css" href="{{ asset 'css/normalize.css' }}" />
+    <link rel="stylesheet" type="text/css" href="{{ asset 'css/screen.css' }}" />
+    <link rel="stylesheet" type="text/css" href="{{ asset 'css/prism.css' }}" />
 
     {{ghost_head}}
 </head>
@@ -30,7 +31,8 @@
 
     {{ghost_foot}}
 
-    <script type="text/javascript" src="/assets/js/index.js"></script>
+    <script type="text/javascript" src="{{ asset 'js/index.js' }}"></script>
+    <script type="text/javascript" src="{{ asset 'js/prism.js' }}"></script>
 
 </body>
 </html>
