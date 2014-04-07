@@ -282,6 +282,9 @@ footer.post-footer {
   border-top: 1px solid #ecf0f1;
   margin-top: 1em;
 }
+#disqus_thread {
+  color: #787878; 
+}
 /* === Navigation and Pagination === */
 nav {
   border-bottom: 1px solid #ecf0f1;
