@@ -9,28 +9,44 @@
 
     <meta name="HandheldFriendly" content="True" />
     <meta name="MobileOptimized" content="320" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
 
-    <link rel="stylesheet" type="text/css" href="/assets/css/normalize.css" />
-    <link rel="stylesheet" type="text/css" href="/assets/css/screen.css" />
+    <link rel="stylesheet" type="text/css" href="{{asset "css/normalize.css"}}" />
+    <link rel="stylesheet" type="text/css" href="{{asset "css/screen.css"}}" />
+
+    {{#if pagination.next}}<link href="{{pageUrl pagination.next}}" rel="prefetch" />{{/if}}
 
     {{ghost_head}}
 </head>
 <body class="{{body_class}}">
 
+    <header id="site-head">
+        {{#if @blog.logo}}<a id="blog-logo" href="{{@blog.url}}"><div class="bloglogo" style="background: url({{@blog.logo}})"></div></a>{{/if}}
+        <h1 class="blog-title"><a href="{{@blog.url}}">{{@blog.title}}</a></h1>
+        {{> header-description}}
+        {{!> menu}}
+    </header>
+
     {{{body}}}
 
     <footer class="site-footer">
         <div class="inner">
+<<<<<<< Updated upstream
              <section class="copyright">&copy; {{date format="YYYY"}} <a href="/">{{@blog.title}}</a>. All rights reserved.</section>
              <section>Vapor theme by <a href="http://sethlilly.com/">Seth Lilly</a></section>
              <section class="poweredby">Proudly published with <a class="icon-ghost" href="http://ghost.org"><span class="hidden">Ghost</span></a></section>
+=======
+            {{!> footer-description}}
+            <section class="copyright">&copy; {{date format="YYYY"}} <a href="/">{{@blog.title}}</a>. All rights reserved.</section>
+            <section>Vapor theme by <a href="http://sethlilly.com/">Seth Lilly</a></section>
+            <section class="poweredby">Proudly published with <a class="icon-ghost" href="http://ghost.org/"><span class="hidden">Ghost</span></a></section>
+>>>>>>> Stashed changes
         </div>
     </footer>
 
     {{ghost_foot}}
 
-    <script type="text/javascript" src="/assets/js/index.js"></script>
+    <script type="text/javascript" src="{{asset "js/index.js"}}"></script>
 
 </body>
 </html>

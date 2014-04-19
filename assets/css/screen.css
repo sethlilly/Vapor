@@ -1,6 +1,5 @@
-@import url(//fonts.googleapis.com/css?subset=latin,cyrillic-ext,latin-ext,cyrillic&family=Open+Sans+Condensed:300|Merriweather:400,300,300italic,400italic,700,700italic|Roboto+Slab:400,300);
-
-@import url(//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
+@import url('//fonts.googleapis.com/css?subset=latin,cyrillic-ext,latin-ext,cyrillic&family=Open+Sans+Condensed:300|Open+Sans:400,600,400italic,600italic|Merriweather:400,300,300italic,400italic,700,700italic|Roboto+Slab:400,300');
+@import url('//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css');
 /* === Core Styles === */
 body {
   background-color: #ffffff;
@@ -83,7 +82,6 @@ h1 {
 }
 #site-head,
 article,
-nav,
 article.preview,
 a.archive-link,
 .article-nav {
@@ -114,6 +112,7 @@ article.preview p.readmore {
   width: 100px;
   height: 100px;
   border-radius: 50%;
+  -webkit-background-size: cover !important;
   background-size: cover !important;
   background-position: center center !important;
   background-color: #ffffff;
@@ -132,9 +131,12 @@ h1.blog-title {
 h2.blog-description {
   border-bottom: 1px solid #ecf0f1;
   border-top: 1px solid #ecf0f1;
-  margin-bottom: 3em;
+  margin-bottom: 2em;
   padding: .5em 1em;
   line-height: 1.2em;
+}
+section.footer-description {
+  margin-bottom: 1em;
 }
 header.article-header,
 header.page-header {
@@ -170,6 +172,10 @@ section.share p.info {
   line-height: 20px;
   text-transform: uppercase;
   font-family: "Open Sans Condensed", "Open Sans", "Helvetica Neue", Helvetica, Arial, "Nimbus L", sans-serif;
+}
+section.share p.info.prompt {
+  top: -5px;
+  position: relative;
 }
 section.author p.attr {
   margin-bottom: 2px;
@@ -218,6 +224,7 @@ div.authorimage {
   width: 70px;
   height: 70px;
   border-radius: 50%;
+  -webkit-background-size: cover !important;
   background-size: cover !important;
   background-position: center center !important;
   margin-right: 10px;
@@ -286,8 +293,10 @@ footer.post-footer {
 nav {
   border-bottom: 1px solid #ecf0f1;
   border-top: 1px solid #ecf0f1;
-  margin-bottom: 3em;
+  margin-bottom: 2em;
   text-align: center;
+  margin: 20px auto 2em auto;
+  max-width: 600px;
 }
 nav ul {
   list-style: none;
@@ -297,27 +306,41 @@ nav ul {
   overflow: hidden;
   text-align: center;
 }
-nav li {
+nav ul li {
   display: inline-block;
   font-family: "Open Sans Condensed", "Open Sans", "Helvetica Neue", Helvetica, Arial, "Nimbus L", sans-serif;
   font-size: 18px;
   font-weight: 300;
-  margin: 0 2em;
-  padding: 0;
+  margin: 0;
+  padding: 0 .5em;
   text-align: center;
   text-transform: uppercase;
-  width: 4em;
 }
-nav li a {
+nav ul li a {
   display: block;
   padding: .5em 0;
 }
-nav li:first-child {
+nav.menu {
+  margin-bottom: 2.5em;
+}
+nav.menu li {
+  margin: 0 .5em;
+  padding: 0;
+}
+nav.menu li:last-child {
+  margin: 0;
+}
+@media only screen and (min-width: 320px) and (max-width: 662px) {
+  nav.menu li {
+    display: block;
+  }
+}
+nav.pagination li:first-child {
   margin-left: 0;
   margin-right: 0;
   text-align: right;
 }
-nav li:last-child {
+nav.pagination li:last-child {
   margin-left: 0;
   margin-right: 0;
   text-align: left;
@@ -390,7 +413,6 @@ a.archive-link {
   text-transform: uppercase !important;
   display: none !important;
   /* Hide GitHub attribution */
-
 }
 .gist .gist-file .gist-meta a:visited {
   color: #3498db !important;
@@ -399,7 +421,6 @@ a.archive-link {
   background: #fdfdfd !important;
   border-bottom: none !important;
   /* Hide GitHub attribution */
-
 }
 .gist .gist-file .gist-data .line-numbers {
   border-right: none !important;
@@ -425,10 +446,7 @@ a.archive-link {
   font-style: normal;
 }
 .icon-ghost,
-.icon-feed,
-.icon-twitter,
-.icon-google-plus,
-.icon-facebook {
+.icon-feed {
   font-family: 'icons';
   speak: none;
   font-style: normal;
@@ -439,31 +457,42 @@ a.archive-link {
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
 }
-.icon-twitter,
-.icon-google-plus,
-.icon-facebook {
-  padding-left: 0.5em;
-}
 .icon-ghost:before {
   content: "\e000";
 }
 .icon-feed:before {
   content: "\e001";
 }
-.icon-twitter:before {
-  content: "\e002";
-  font-size: 1.1em;
-}
-.icon-google-plus:before {
-  content: "\e003";
-}
-.icon-facebook:before {
-  content: "\e004";
-}
 .icon-ghost {
   font-size: 12px;
   position: relative;
   top: -1px;
+}
+/* Comments */
+#disqus_thread {
+  color: #787878;
+}
+/* Tables */
+table {
+  width: 100%;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, "Nimbus L", sans-serif;
+  border-collapse: collapse;
+  margin: 1em 0 3em;
+}
+table td {
+  padding: .5em;
+}
+table thead {
+  font-weight: 600;
+  border-bottom: 1px solid #ecf0f1;
+}
+table tbody tr:nth-child(even) {
+  background-color: #ecf0f1;
+  border-top: 1px solid #e3e9eb;
+  border-bottom: 1px solid #e3e9eb;
+}
+table tfoot {
+  border-top: 1px solid #ecf0f1;
 }
 /* === Media Queries === */
 @media only screen and (min-width: 320px) and (max-width: 500px) {
