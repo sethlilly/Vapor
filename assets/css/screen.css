@@ -327,9 +327,6 @@ nav.menu li {
   margin: 0 .5em;
   padding: 0;
 }
-nav.menu li:last-child {
-  margin: 0;
-}
 @media only screen and (min-width: 320px) and (max-width: 662px) {
   nav.menu li {
     display: block;
