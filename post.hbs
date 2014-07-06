@@ -5,7 +5,13 @@
     <article class="{{post_class}}">
 
         {{#post}}
-
+        {{#contentFor "metaTags"}}
+            <meta property="og:title" content="{{title}}" />
+            <meta property="og:url" content="{{url absolute="true"}}"/>
+            <meta property="og:description" content="{{excerpt}}"/>
+            <meta property="article:author" content="{{author.website}}">
+            <meta property="og:type" content="article">
+        {{/contentFor}}
         <header>
         {{#if tags}}<div class="post-meta tags">Posted in {{tags}}</div>{{/if}}
         <h1 class="post-title">{{{title}}}</h1>
