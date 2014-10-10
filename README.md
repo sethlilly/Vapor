@@ -24,6 +24,12 @@ See the [changelog](CHANGELOG.md) for a full list of new features in 1.4.
 
 *New in 1.2:* A [LESS](http://lesscss.org) file is included which contains variables allowing you to quickly change the theme's stylesheet. However, I've chosen to exclude `less.js` from the theme and I recommend using a desktop compiler like [CodeKit](https://incident57.com/codekit/) to process your LESS file.
 
+## Installation
+
+Clone or download and unzip the repository in the `/content/themes` directory of your Ghost installation and restart Ghost.
+
+    $ git clone https://github.com/sethlilly/Vapor.git
+
 ## Releases
 
 See the [changelog](CHANGELOG.md) for release details.
