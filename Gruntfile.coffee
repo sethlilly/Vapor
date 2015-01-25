@@ -6,15 +6,15 @@ module.exports = (grunt) ->
     uglify:
       build:
         files:
-          "assets/scripts.min.js": "assets/**/*.js"
+          "assets/js/scripts.min.js": "assets/js/**/*.js"
     coffee:
       build:
         files:
-          "assets/scripts.js": "assets-src/**/*.coffee"
+          "assets/js/scripts.js": "assets-src/**/*.coffee"
     less:
       build:
         files:
-          "assets/stylesheet.css": "assets-src/**/*.less"
+          "assets/css/stylesheet.css": "assets-src/**/*.less"
 
   
   # Load the plugin that provides the "uglify" task.
