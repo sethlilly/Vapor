@@ -11,7 +11,8 @@
 .idea/vcs.xml
 
 # Ignore compiled files
-assets/
+*.js
+*.css
 
 # Ignore node modules
 node_modules/
