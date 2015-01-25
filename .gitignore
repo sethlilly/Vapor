@@ -9,3 +9,9 @@
 .idea/scopes/scope_settings.xml
 .idea/workspace.xml
 .idea/vcs.xml
+
+# Ignore compiled files
+assets/
+
+# Ignore node modules
+node_modules/

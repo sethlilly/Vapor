@@ -1,4 +1,25 @@
 {
+  "author": "Seth Lilly",
   "name": "Vapor",
-  "version": "1.4"
+  "description": "Ghost theme forked from Seth Lilly's Vapor.",
+  "version": "0.0.1",
+  "repository": {
+    "url": ""
+  },
+  "keywords": [
+    "ghost",
+    "vapor",
+    "theme"
+  ],
+  "dependencies": {},
+  "engines": {
+    "node": "*"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-coffee": "^0.12.0",
+    "grunt-contrib-less": "^1.0.0",
+    "grunt-contrib-uglify": "^0.7.0",
+    "grunt-contrib-watch": "^0.6.1"
+  }
 }
