@@ -15,7 +15,10 @@ module.exports = (grunt) ->
       build:
         files:
           "assets/css/stylesheet.css": "assets-src/**/*.less"
-
+    watch:
+      styles:
+        files: '**/*.less'
+        tasks: ['less']
   
   # Load the plugin that provides the "uglify" task.
   grunt.loadNpmTasks "grunt-contrib-uglify"
