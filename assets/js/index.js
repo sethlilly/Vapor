@@ -12,7 +12,12 @@
         // for better relative/absolute positioning.
 
         //$("#blog-logo").prependTo("#site-head-content");
-
+		$("#search").ghostHunter({
+              results: "#search-results",
+              zeroResultsInfo : false,
+              info_template   : "<p>Number of posts found: {{amount}}</p>",
+              onKeyUp         : true
+        });  
     });
 
 }(jQuery));
