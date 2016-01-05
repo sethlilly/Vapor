@@ -1,6 +1,6 @@
 # Vapor
 
-Mr. Robo7 blog theme. Forked from Vapor](https://github.com/sethlilly/Vapor).
+Mr. Robo7 blog theme. Forked from [Vapor](https://github.com/sethlilly/Vapor).
 
 Base theme copyright (c) 2013-2014 Seth Lilly - Released under The MIT License.
 
