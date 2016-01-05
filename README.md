@@ -6,6 +6,8 @@ Base theme copyright (c) 2013-2014 Seth Lilly - Released under The MIT License.
 
 Open Sans font copyright Google - Released under Apache License v2.00.
 
+Open Sans Condensed font copyright Google - Released under Apache License v2.00.
+
 Source Code Pro by Adobe - Released under SIL Open Font License v1.10.
 
 The Ghost, Facebook, Twitter, and Google+ icons are trademarks of their respective owners and are from the Casper theme, copyright (c) 2013 Ghost Foundation and released under The MIT License.
