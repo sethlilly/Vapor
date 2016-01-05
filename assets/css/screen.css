@@ -1,4 +1,4 @@
-@import url('//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css');
+@import url('font-awesome.min.css');
 @font-face {
   font-family: SourceCodePro;
   src: url("../fonts/source-code-pro/SourceCodePro-Regular.otf") format("opentype");
