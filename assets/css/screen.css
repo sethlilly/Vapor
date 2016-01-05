@@ -1,4 +1,4 @@
-@import url('//fonts.googleapis.com/css?subset=latin,cyrillic-ext,latin-ext,cyrillic&family=Open+Sans+Condensed:300|Open+Sans:400,600,400italic,600italic|Roboto+Slab:400,300');
+@import url('//fonts.googleapis.com/css?subset=latin,cyrillic-ext,latin-ext,cyrillic&family=Open+Sans+Condensed:300|Roboto+Slab:400,300');
 @import url('//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css');
 @font-face {
   font-family: SourceCodePro;
@@ -8,6 +8,16 @@
   font-family: SourceCodePro;
   font-weight: bold;
   src: url("../fonts/source-code-pro/SourceCodePro-Bold.otf") format("opentype");
+}
+@font-face {
+  font-family: Open Sans;
+  font-weight: 400;
+  src: url("../fonts/open-sans/OpenSans-Regular.ttf") format("opentype");
+}
+@font-face {
+  font-family: Open Sans;
+  font-weight: 600;
+  src: url("../fonts/open-sans/OpenSans-Semibold.ttf") format("opentype");
 }
 /* === Core Styles === */
 body {
