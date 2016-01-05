@@ -2,15 +2,24 @@
 
 // Imports
 
-@import url('//fonts.googleapis.com/css?subset=latin,cyrillic-ext,latin-ext,cyrillic&family=Open+Sans+Condensed:300|Open+Sans:400,600,400italic,600italic|Merriweather:400,300,300italic,400italic,700,700italic|Roboto+Slab:400,300');
+@import url('//fonts.googleapis.com/css?subset=latin,cyrillic-ext,latin-ext,cyrillic&family=Open+Sans+Condensed:300|Open+Sans:400,600,400italic,600italic|Roboto+Slab:400,300');
+@font-face {
+    font-family: SourceCodePro;
+    src: url("../fonts/source-code-pro/SourceCodePro-Regular.otf") format("opentype");
+}
+@font-face {
+    font-family: SourceCodePro;
+    font-weight: bold;
+    src: url("../fonts/source-code-pro/SourceCodePro-Bold.otf") format("opentype");
+}
 @import url('//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css');
 
 // Variables
 
 @bodyBackgroundColor: #ffffff;
-@baseFontFamily: "Merriweather", "Open Sans", "Helvetica Neue", Helvetica, Arial, "Nimbus L", sans-serif;
+@baseFontFamily: "Open Sans", "Helvetica Neue", Helvetica, Arial, "Nimbus L", sans-serif;
 @baseFontColor: #7f8c8d;
-@headerFontFamily: "Roboto Slab", @baseFontFamily;
+@headerFontFamily: "SourceCodePro", @baseFontFamily;
 @headerFontColor: #151515;
 @headerLinkColor: @headerFontColor;
 @secondaryFontFamily: "Open Sans Condensed", "Open Sans", "Helvetica Neue", Helvetica, Arial, "Nimbus L", sans-serif;
@@ -538,7 +547,7 @@ a.archive-link {
 /* Comments */
 
 #disqus_thread {
-    color: #787878; 
+    color: #787878;
 }
 
 /* Tables */
@@ -569,7 +578,7 @@ table {
 
 /* === Media Queries === */
 
-@media only screen and (min-width: 320px) and (max-width: 500px) { 
+@media only screen and (min-width: 320px) and (max-width: 500px) {
     footer section span.copyright {
         display: block
     }
