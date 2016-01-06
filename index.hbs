@@ -2,6 +2,8 @@
 
 <main class="content" role="main">
 
+  {{#if posts}}
+
     {{#foreach posts}}
 
     <article class="preview">
@@ -18,5 +20,9 @@
     {{/foreach}}
 
     {{pagination}}
+
+    {{else}}
+        <center><p>No posts available.</p></center>
+    {{/if}}
 
 </main>
