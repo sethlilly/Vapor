@@ -1,4 +1,4 @@
-# Vapor
+# Batcave
 
 Mr. Robo7 blog theme. Forked from [Vapor](https://github.com/sethlilly/Vapor).
 
