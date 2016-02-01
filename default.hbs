@@ -40,6 +40,14 @@
 
     {{ghost_foot}}
 
+    <!-- Load jQuery if is not already loaded. -->
+    <!-- After Ghost 0.7, on all new blogs jquery is not loaded by default. -->
+    <script type="text/javascript">
+        if (typeof jQuery == 'undefined') {
+            document.write('<script type="text/javascript" src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.2.0.min.js"></'+'script>');
+        }
+    </script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.6/moment.min.js"></script>
     <script type="text/javascript" src="{{asset "js/index.js"}}"></script>
 
 </body>
