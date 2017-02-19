@@ -404,3 +404,12 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
+
+/*
+ * Prevent google+ comment system from creating horizontal scroll on 
+ * mobile devices
+ * http://www.andrea-cardinale.com/css/make-responsive-the-google-plus-comments-widget.html
+ */
+div[id^='___comments_'], div[id^='___comments_'] iframe {
+  width: 100% !important;
+}
