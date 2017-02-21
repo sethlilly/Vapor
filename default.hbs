@@ -13,8 +13,10 @@
 
     <link rel="stylesheet" type="text/css" href="{{asset "css/normalize.css"}}" />
     <link rel="stylesheet" type="text/css" href="{{asset "css/screen.css"}}" />
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?subset=latin,cyrillic-ext,latin-ext,cyrillic&family=Open+Sans+Condensed:300|Open+Sans:400,600,400italic,600italic|Merriweather:400,300,300italic,400italic,700,700italic|Roboto+Slab:400,300">
+    <link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
 
-    {{#if pagination.next}}<link href="{{pageUrl pagination.next}}" rel="prefetch" />{{/if}}
+    {{#if pagination.next}}<link href="{{page_url pagination.next}}" rel="prefetch" />{{/if}}
 
     {{ghost_head}}
 </head>
@@ -25,6 +27,7 @@
         <h1 class="blog-title"><a href="{{@blog.url}}">{{@blog.title}}</a></h1>
         {{> header-description}}
         {{!> menu}}
+        {{navigation}}
     </header>
 
     {{{body}}}
