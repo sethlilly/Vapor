@@ -1,3 +1,9 @@
+# Deprecation Notice
+
+With the [release of Ghost 1.0.0](https://blog.ghost.org/1-0/), Vapor 1.x is deprecated. Vapor 2.0.0 with full support for Ghost 1.0.0+ is coming, and as soon as I know when that will be, I'll update this repo with information. Thanks to everyone who has forked, contributed, and used Vapor! I'm looking forward to the next version.
+
+___
+
 # Vapor
 
 Minimal and responsive with a focus on typography, *Vapor* is a theme that embodies the core concept of [Ghost](http://ghost.org/)&mdash;it fades into the background, bringing the focus to your content.
