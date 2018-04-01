@@ -1,3 +1,9 @@
+# Deprecation Notice
+
+With the [release of Ghost 1.0.0](https://blog.ghost.org/1-0/), Vapor 1.x is deprecated. Vapor 2.0.0 with full support for Ghost 1.0.0+ is coming, and as soon as I know when that will be, I'll update this repo with information. Thanks to everyone who has forked, contributed, and used Vapor! I'm looking forward to the next version.
+
+___
+
 # Vapor
 
 Minimal and responsive with a focus on typography, *Vapor* is a theme that embodies the core concept of [Ghost](http://ghost.org/)&mdash;it fades into the background, bringing the focus to your content.
@@ -16,7 +22,7 @@ See *Vapor* in action at [Hipster Ghost](http://hipsterghost.com/).
 
 _[Hipster Ghost](http://hipsterghost.com) is always running the latest version of Vapor. You can preview all new features there._
 
-*New in 1.4:* You may now use the `{{> menu}}` partial to display a custom menu on your pages. This is helpful for linking to certain posts or static pages. To activate this feature, simply remove the `!` in `{{!> menu}}` in `index.hbs`, `post.hbs`, and `page.hbs`. Also included are the `{{> header-description}}` and `{{> footer-description}}` partials for those using the menu. You can simply add the `!` to `{{> header-description}}` in the header (now located in `default.hbs` for all posts and pages) to deactivate. Remove the `!` from the `{{!> footer-description}}` partial call on the same page to activate display of the description in the footer. If you want to edit these partials (to add menu items or other content), you'll find them in the `/partials` directory. If you're using a self-hosted version of Ghost, you may need to restart or reload Ghost in order for the Handlebars partials to recompile after editing. There are also three new commenting options (Disqus, Facebook, and Google+) that follow the same conventions. You'll find these calls in `post.hbs` and `page.hbs`. I contend that Disqus is the best of these three options in terms of appearance and responsiveness; YMMV.
+*New in 1.4:* You may now use the `{{> menu}}` partial to display a custom menu on your pages. This is helpful for linking to certain posts or static pages. To activate this feature, simply remove the `!` in `{{!> menu}}` in `default.hbs`. Also included are the `{{> header-description}}` and `{{> footer-description}}` partials for those using the menu. You can simply add the `!` to `{{> header-description}}` in the header (now located in `default.hbs` for all posts and pages) to deactivate. Remove the `!` from the `{{!> footer-description}}` partial call on the same page to activate display of the description in the footer. If you want to edit these partials (to add menu items or other content), you'll find them in the `/partials` directory. If you're using a self-hosted version of Ghost, you may need to restart or reload Ghost in order for the Handlebars partials to recompile after editing. There are also three new commenting options (Disqus, Facebook, and Google+) that follow the same conventions. You'll find these calls in `post.hbs` and `page.hbs`. I contend that Disqus is the best of these three options in terms of appearance and responsiveness; YMMV.
 
 See the [changelog](CHANGELOG.md) for a full list of new features in 1.4.
 
