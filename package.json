@@ -1,4 +1,15 @@
 {
-  "name": "Vapor",
-  "version": "1.4.0"
+    "name": "vapor",
+    "description": "A minimal, responsive theme for Ghost.",
+    "version": "1.5.0",
+    "engines": {
+        "ghost": ">=1.0.0"
+    },
+    "license": "MIT",
+    "author": {
+        "email": "seth.lilly@gmail.com"
+    },
+    "config": {
+        "posts_per_page": 10
+    }
 }
