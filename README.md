@@ -18,11 +18,9 @@ The Ghost, Facebook, Twitter, and Google+ icons are trademarks of their respecti
 
 Other icons provided by [Font Awesome](https://github.com/FortAwesome/Font-Awesome) and released under SIL OFL 1.1.
 
-See *Vapor* in action at [Hipster Ghost](http://hipsterghost.com/).
-
 ## What's New?
 
-_[Hipster Ghost](http://hipsterghost.com) is always running the latest version of Vapor. You can preview all new features there._
+*New in 1.5:* Support for Ghost 1.x+.
 
 *New in 1.4:* You may now use the `{{> menu}}` partial to display a custom menu on your pages. This is helpful for linking to certain posts or static pages. To activate this feature, simply remove the `!` in `{{!> menu}}` in `default.hbs`. Also included are the `{{> header-description}}` and `{{> footer-description}}` partials for those using the menu. You can simply add the `!` to `{{> header-description}}` in the header (now located in `default.hbs` for all posts and pages) to deactivate. Remove the `!` from the `{{!> footer-description}}` partial call on the same page to activate display of the description in the footer. If you want to edit these partials (to add menu items or other content), you'll find them in the `/partials` directory. If you're using a self-hosted version of Ghost, you may need to restart or reload Ghost in order for the Handlebars partials to recompile after editing. There are also three new commenting options (Disqus, Facebook, and Google+) that follow the same conventions. You'll find these calls in `post.hbs` and `page.hbs`. I contend that Disqus is the best of these three options in terms of appearance and responsiveness; YMMV.
 
@@ -38,6 +36,7 @@ See the [changelog](CHANGELOG.md) for release details.
 
 | Version | Release Date |
 | :-----: | :----------: |
+| 1.5 | 2018-04-23 |
 | 1.4 | 2014-04-19 |
 | 1.3 | 2014-01-12 |
 | 1.2.1 | 2013-12-14 |
@@ -53,7 +52,7 @@ See the [changelog](CHANGELOG.md) for release details.
 
 ## Copyright & License
 
-Copyright (c) 2013-2014 Seth Lilly - Released under The MIT License.
+Copyright (c) 2013-2018 Seth Lilly - Released under The MIT License.
 
 ## Are you using Vapor?
 
