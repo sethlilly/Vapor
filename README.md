@@ -1,3 +1,7 @@
+# Ghost 2.0 Compatibility
+
+[Vapor 1.6](https://github.com/sethlilly/Vapor/releases/tag/v1.6.0) is compatible with Ghost 2.0. Thanks to [jamesejr](https://github.com/jamesejr) for making this happen!
+
 # Deprecation Notice
 
 **UPDATE 2018-08-22**: Remember when I said 1.5 would be the last release in the 1.x series? Yeah, scratch that. Thanks to [jamesejr](https://github.com/jamesejr) for the PR featured in the [1.6 release](https://github.com/sethlilly/Vapor/releases/tag/v1.6.0) to provide Vapor compatibility with Ghost 2.0.
