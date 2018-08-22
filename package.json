@@ -9,6 +9,11 @@
     "author": {
         "email": "seth.lilly@gmail.com"
     },
+    "keywords": [
+        "ghost",
+        "theme",
+        "ghost-theme"
+    ],
     "config": {
         "posts_per_page": 10
     }
