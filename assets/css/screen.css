@@ -254,6 +254,10 @@ section.post-content img {
   margin: 0 auto;
   max-width: 100%;
 }
+section.post-content .kg-width-wide img {
+}
+section.post-content .kg-width-full img {
+}
 section.preview.archive h2 {
   text-align: left;
 }
