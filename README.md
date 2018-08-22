@@ -1,5 +1,7 @@
 # Deprecation Notice
 
+**UPDATE 2018-08-22**: Remember when I said 1.5 would be the last release in the 1.x series? Yeah, scratch that. Thanks to [jamesejr](https://github.com/jamesejr) for the PR featured in the [1.6 release](https://github.com/sethlilly/Vapor/releases/tag/v1.6.0) to provide Vapor compatibility with Ghost 2.0.
+
 **UPDATE**: Many thanks to [pokono](https://github.com/pokono) for the PR featured in the [1.5 release](https://github.com/sethlilly/Vapor/tree/v1.5.0) to bring Vapor up to compatibility with Ghost 1.0+. I’ve released that as the final release in the 1.x series. Moving forward, only 2.x releases will be maintained.
 
 With the [release of Ghost 1.0.0](https://blog.ghost.org/1-0/), Vapor 1.x is deprecated. Vapor 2.0.0 with full support for Ghost 1.0.0+ is coming, and as soon as I know when that will be, I'll update this repo with information. Thanks to everyone who has forked, contributed, and used Vapor! I'm looking forward to the next version.
@@ -36,6 +38,7 @@ See the [changelog](CHANGELOG.md) for release details.
 
 | Version | Release Date |
 | :-----: | :----------: |
+| 1.6 | 2018-08-22 |
 | 1.5 | 2018-04-23 |
 | 1.4 | 2014-04-19 |
 | 1.3 | 2014-01-12 |
