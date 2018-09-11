@@ -1,7 +1,7 @@
-<nav class="menu" role="nav">
-    <ul>
-      <li><a href="">Item One</a></li>
-      <li><a href="">Item Two</a></li>
-      <li><a href="">Item Three</a></li>
-    </ul>
-</nav>
+<nav class="site-nav">
+    <div class="site-nav-left">
+                 {{#if @blog.navigation}}
+            {{navigation}}
+        {{/if}}
+    </div>
+    </nav>
