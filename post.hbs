@@ -9,7 +9,10 @@
         <header>
         {{#if tags}}<div class="post-meta tags">Posted in {{tags}}</div>{{/if}}
         <h1 class="post-title">{{{title}}}</h1>
-        <div class="post-meta"><time class="post-date" datetime="{{date format="YYYY-MM-DDTHH:mm:ss.SS\Z"}}">...</time></div>
+        <div class="post-meta"><time class="post-date" datetime="{{date format="YYYY-MM-DDTHH:mm:ss.SS\Z"}}">...</time>
+        <br>
+        {{reading_time}}
+        </div>
         </header>
 
         <section class="post-content">
