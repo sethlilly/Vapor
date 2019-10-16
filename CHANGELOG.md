@@ -1,5 +1,6 @@
 # Changelog
-
+* 2.0 - 2019-10-16
+    * Add required CSS and Content API changes to bring theme up-to-date and compatible
 * 1.4 - 2014-04-19
     * Added `package.json` (closes [#26](https://github.com/sethlilly/Vapor/issues/26))
     * Added `{{asset}}` helper (closes [#24](https://github.com/sethlilly/Vapor/issues/24) and [#13](https://github.com/sethlilly/Vapor/issues/13))
