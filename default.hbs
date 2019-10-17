@@ -22,17 +22,17 @@
     <header id="site-head">
         {{#if @site.logo}}<a id="blog-logo" href="{{@site.url}}"><div class="bloglogo" style="background: url({{@site.logo}})"></div></a>{{/if}}
         <h1 class="blog-title"><a href="{{@site.url}}">{{@site.title}}</a></h1>
-        {{> header-description}}
-        {{!> menu}}
+        {{!> header-description}}
+        {{navigation}}
+        
     </header>
 
     {{{body}}}
 
     <footer class="site-footer">
         <div class="inner">
-            {{!> footer-description}}
+            {{> footer-description}}
             <section class="copyright">&copy; {{date format="YYYY"}} <a href="/">{{@site.title}}</a>. All rights reserved.</section>
-            <section>Vapor theme by <a href="http://sethlilly.com/">Seth Lilly</a></section>
             <section class="poweredby">Proudly published with <a class="icon-ghost" href="http://ghost.org/"><span class="hidden">Ghost</span></a></section>
         </div>
     </footer>
