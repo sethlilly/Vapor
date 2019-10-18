@@ -1,7 +1,7 @@
 {
     "name": "space-and-coffee",
     "description": "A minimal, responsive theme for Ghost based on Vapor.",
-    "version": "2.0.0",
+    "version": "2.0.1",
     "engines": {
         "ghost": ">=2.0.0"
     },

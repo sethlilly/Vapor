@@ -1,4 +1,6 @@
 # Changelog
+* 2.0.1 - 2019-10-17
+    * Remove Author info from `page.hbs` template
 * 2.0 - 2019-10-16
     * Add required CSS and Content API changes to bring theme up-to-date and compatible
     * Add `{{navigation}}` data helper replacing `{{> menu}}`
