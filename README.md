@@ -12,9 +12,9 @@ Other icons provided by [Font Awesome](https://github.com/FortAwesome/Font-Aweso
 
 ## Screenshots
 
-![](https://github.com/jamesejr/vapor/blob/master/screenshots/screenshot-desktop.png?raw=true)
+![](https://github.com/sethlilly/Vapor/blob/master/screenshots/screenshot-desktop.png?raw=true)
 
-A mobile screenshot is available [here](https://github.com/jamesejr/vapor/blob/master/screenshots/screenshot-mobile.png)
+A mobile screenshot is available [here](https://github.com/sethlilly/Vapor/blob/master/screenshots/screenshot-mobile.png)
 
 ## Ghost 2.0 Compatibility
 
